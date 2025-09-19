@@ -32,7 +32,10 @@ Como futuros desarrolladores de backend, te invito a que hagas una pequeña prá
     -   `fichero_entrada.csv`  contendrá los datos de los jugadores de tenis que participaran en la competición y siempre es obligatorio. Su extensión válida es .csv. El path debe ser válido en sistemas de archivos del sistema operativo actual.
     -   `fichero_salida.xxx`  solo puede tener de extensión .csv, .json o .xml. El path debe ser válido en sistemas de archivos del sistema operativo actual. Si no escribes un path, el fichero se guardará en el directorio actual, con json como formato por defecto y con el nombre torneo_tenis.json.
 
+```
 java -jar torneo_tenis.jar fichero_entrada.csv fichero_salida.json
+```
+
 
 -   El programa debe contener una base de datos en ficheros del tipo SQLite o H2 para almacenar la información, para ello tendremos una tabla llamada tenistas con la siguiente información (te recomiendo analizar bien los tipos de datos):
 
