@@ -2,7 +2,7 @@
 
 En esta primera práctica lo que haremos es crear un proyecto Spring Boot de ejemplo muy sencillo para ver cómo funciona una aplicación dentro de un framework. No te preocupes por el código, lo veremos después más a fondo cómo funciona este conjunto de Utilidades de Spring llamado Spring Boot que agiliza la creación de aplicaciones empresariales.
 
-1. Creamos un proyecto Spring Boot, para ello o bien tenemos el Ultimate o nos vamos a Spring Initz
+1. Creamos un proyecto Spring Boot, para ello o bien tenemos el Ultimate o nos vamos a [Spring Initz](https://start.spring.io/index.html)
 
 2. Creamos el controlador en la carpeta `src\main\java\org\example\sp1`:
 
