@@ -30,7 +30,24 @@ Como futuros desarrolladores de backend, te invito a que hagas una pequeña prá
 -   Esta aplicación acepta como máximo dos parámetros: fichero_entrada.csv y fichero_salida.xxx
 
     -   `fichero_entrada.csv`  contendrá los datos de los jugadores de tenis que participaran en la competición y siempre es obligatorio. Su extensión válida es .csv. El path debe ser válido en sistemas de archivos del sistema operativo actual.
+    ```
+    nombre,pais,altura,peso,puntos,mano,fecha_nacimiento
+    Rafael Nadal,España,185,85,9500,DIESTRO,1986-06-03
+    Novak Djokovic,Serbia,188,80,12000,DIESTRO,1987-05-22
+    Carlos Alcaraz,España,183,74,8700,DIESTRO,2003-05-05
+    Roger Federer,Suiza,185,81,11000,DIESTRO,1981-08-08
+    Dominic Thiem,Austria,185,79,7200,ZURDO,1993-09-03
+    Andy Murray,Reino Unido,190,84,8000,DIESTRO,1987-05-15
+    ```
+
     -   `fichero_salida.xxx`  solo puede tener de extensión .csv, .json o .xml. El path debe ser válido en sistemas de archivos del sistema operativo actual. Si no escribes un path, el fichero se guardará en el directorio actual, con json como formato por defecto y con el nombre torneo_tenis.json.
+
+    ```bash
+        id,nombre,pais,altura,peso,puntos,mano,fecha_nacimiento,created_at,updated_at
+        1,Rafael Nadal,España,185,85,9500,DIESTRO,1986-06-03,2025-09-23T10:30:01.123456,2025-09-23T10:30:01.123456
+        2,Novak Djokovic,Serbia,188,80,12000,DIESTRO,1987-05-22,2025-09-23T10:30:01.123456,2025-09-23T10:30:01.123456
+        3,Carlos Alcaraz,España,183,74,8700,DIESTRO,2003-05-05,2025-09-23T10:30:01.123456,2025-09-23T10:30:01.123456
+    ```
 
 ```
 java -jar torneo_tenis.jar fichero_entrada.csv fichero_salida.json
