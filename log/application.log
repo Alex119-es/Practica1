@@ -14,3 +14,35 @@
 17:06:27.656 [main] INFO  com.torneo_tenis.io.JsonWriter - Archivo JSON escrito correctamente: torneo_tenis.json
 17:06:27.668 [main] INFO  c.t.repository.TenistaRepository - Conexión a la base de datos cerrada
 17:06:27.668 [main] INFO  com.torneo_tenis.Main - 🏁 Aplicación finalizada exitosamente
+17:24:00.132 [main] INFO  com.torneo_tenis.Main - 🎾 Aplicación Torneo de Tenis iniciada
+17:24:00.397 [main] INFO  c.t.repository.TenistaRepository - Base de datos inicializada correctamente
+17:24:00.397 [main] INFO  com.torneo_tenis.cache.TenistaCache - Caché FIFO inicializado con tamaño máximo: 5
+17:24:00.398 [main] INFO  com.torneo_tenis.Main - 📂 Archivo de entrada: fichero_entrada.csv
+17:24:00.398 [main] INFO  com.torneo_tenis.Main - 📤 Archivo de salida: salida.json
+17:24:00.398 [main] INFO  com.torneo_tenis.Main - 🧹 Limpiando base de datos...
+17:24:00.406 [main] INFO  com.torneo_tenis.Main - 📖 Leyendo archivo CSV...
+17:24:00.407 [main] INFO  com.torneo_tenis.io.CsvReader - Iniciando lectura del archivo CSV: fichero_entrada.csv
+17:24:00.416 [main] INFO  com.torneo_tenis.io.CsvReader - Lectura completada. Tenistas válidos: 6
+17:24:00.418 [main] INFO  com.torneo_tenis.Main - 💾 Insertando 6 tenistas en la base de datos...
+17:24:00.438 [main] INFO  com.torneo_tenis.Main - 📊 Ejecutando consultas con API de colecciones...
+17:24:00.487 [main] INFO  com.torneo_tenis.Main - 📝 Generando archivo de salida...
+17:24:00.493 [main] INFO  com.torneo_tenis.io.JsonWriter - Escribiendo 6 tenistas a archivo JSON: salida.json
+17:24:00.497 [main] INFO  com.torneo_tenis.io.JsonWriter - Archivo JSON escrito correctamente: salida.json
+17:24:00.506 [main] INFO  c.t.repository.TenistaRepository - Conexión a la base de datos cerrada
+17:24:00.506 [main] INFO  com.torneo_tenis.Main - 🏁 Aplicación finalizada exitosamente
+17:28:18.440 [main] INFO  com.torneo_tenis.Main - 🎾 Aplicación Torneo de Tenis iniciada
+17:28:18.675 [main] INFO  c.t.repository.TenistaRepository - Base de datos inicializada correctamente
+17:28:18.676 [main] INFO  com.torneo_tenis.cache.TenistaCache - Caché FIFO inicializado con tamaño máximo: 5
+17:28:18.677 [main] INFO  com.torneo_tenis.Main - 📂 Archivo de entrada: fichero_entrada.csv
+17:28:18.677 [main] INFO  com.torneo_tenis.Main - 📤 Archivo de salida: salida.xml
+17:28:18.677 [main] INFO  com.torneo_tenis.Main - 🧹 Limpiando base de datos...
+17:28:18.684 [main] INFO  com.torneo_tenis.Main - 📖 Leyendo archivo CSV...
+17:28:18.685 [main] INFO  com.torneo_tenis.io.CsvReader - Iniciando lectura del archivo CSV: fichero_entrada.csv
+17:28:18.694 [main] INFO  com.torneo_tenis.io.CsvReader - Lectura completada. Tenistas válidos: 6
+17:28:18.695 [main] INFO  com.torneo_tenis.Main - 💾 Insertando 6 tenistas en la base de datos...
+17:28:18.714 [main] INFO  com.torneo_tenis.Main - 📊 Ejecutando consultas con API de colecciones...
+17:28:18.758 [main] INFO  com.torneo_tenis.Main - 📝 Generando archivo de salida...
+17:28:18.762 [main] INFO  com.torneo_tenis.io.XmlWriter - Escribiendo 6 tenistas a archivo XML: salida.xml
+17:28:18.765 [main] INFO  com.torneo_tenis.io.XmlWriter - Archivo XML escrito correctamente: salida.xml
+17:28:18.777 [main] INFO  c.t.repository.TenistaRepository - Conexión a la base de datos cerrada
+17:28:18.777 [main] INFO  com.torneo_tenis.Main - 🏁 Aplicación finalizada exitosamente
