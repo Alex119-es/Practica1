@@ -47,6 +47,7 @@ public class Main {
             List<Tenista1> tenistasDB = new ArrayList<>();
             
             for (Tenista1 tenista : tenistasCSV) {
+<<<<<<< HEAD
                 // AGREGAR: Usar el validador aquí
                 List<String> errores = TenistaValidator.validar(tenista);
                 if (!errores.isEmpty()) {
@@ -55,6 +56,8 @@ public class Main {
                     continue; // Saltar este tenista inválido
                 }
                 
+=======
+>>>>>>> 7a8df23d5f5ba3cfeeb6a5be589de2ffb159e3ce
                 Tenista1 tenistaGuardado = repository.save(tenista);
                 tenistasDB.add(tenistaGuardado);
                 cache.put(tenistaGuardado.getId(), tenistaGuardado);
@@ -137,10 +140,21 @@ public class Main {
             lista.forEach(t -> System.out.printf("     - %s%n", t.getNombre()));
         });
         
+<<<<<<< HEAD
         // 7. Número de tenistas agrupados por país y ordenados por número de tenistas desc
         System.out.println("\n7️⃣ Número de tenistas por país (ordenado por número de tenistas desc):");
         porPais.entrySet().stream()
                 .sorted((e1, e2) -> Integer.compare(e2.getValue().size(), e1.getValue().size()))
+=======
+        // 7. Número de tenistas agrupados por país y ordenados por puntos desc
+        System.out.println("\n7️⃣ Número de tenistas por país (ordenado por puntos desc):");
+        porPais.entrySet().stream()
+                .sorted((e1, e2) -> {
+                    int puntosE1 = e1.getValue().stream().mapToInt(Tenista1::getPuntos).sum();
+                    int puntosE2 = e2.getValue().stream().mapToInt(Tenista1::getPuntos).sum();
+                    return Integer.compare(puntosE2, puntosE1);
+                })
+>>>>>>> 7a8df23d5f5ba3cfeeb6a5be589de2ffb159e3ce
                 .forEach(entry -> {
                     int totalPuntos = entry.getValue().stream().mapToInt(Tenista1::getPuntos).sum();
                     System.out.printf("   %s: %d tenistas (%d puntos total)%n", 

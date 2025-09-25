@@ -1,0 +1,76 @@
+{
+  "tenistas": [
+    {
+      "id": 7,
+      "nombre": "Rafael Nadal",
+      "pais": "España",
+      "altura": 185,
+      "peso": 85,
+      "puntos": 9500,
+      "mano": "DERECHA",
+      "fecha_nacimiento": "1986-06-03",
+      "created_at": "2025-09-25T17:24:00.410001",
+      "updated_at": "2025-09-25T17:24:00.410001"
+    },
+    {
+      "id": 8,
+      "nombre": "Novak Djokovic",
+      "pais": "Serbia",
+      "altura": 188,
+      "peso": 80,
+      "puntos": 12000,
+      "mano": "DERECHA",
+      "fecha_nacimiento": "1987-05-22",
+      "created_at": "2025-09-25T17:24:00.411873",
+      "updated_at": "2025-09-25T17:24:00.411873"
+    },
+    {
+      "id": 9,
+      "nombre": "Carlos Alcaraz",
+      "pais": "España",
+      "altura": 183,
+      "peso": 74,
+      "puntos": 8700,
+      "mano": "DERECHA",
+      "fecha_nacimiento": "2003-05-05",
+      "created_at": "2025-09-25T17:24:00.413037",
+      "updated_at": "2025-09-25T17:24:00.413037"
+    },
+    {
+      "id": 10,
+      "nombre": "Roger Federer",
+      "pais": "Suiza",
+      "altura": 185,
+      "peso": 81,
+      "puntos": 11000,
+      "mano": "DERECHA",
+      "fecha_nacimiento": "1981-08-08",
+      "created_at": "2025-09-25T17:24:00.413660",
+      "updated_at": "2025-09-25T17:24:00.413660"
+    },
+    {
+      "id": 11,
+      "nombre": "Dominic Thiem",
+      "pais": "Austria",
+      "altura": 185,
+      "peso": 79,
+      "puntos": 7200,
+      "mano": "IZQUIERDA",
+      "fecha_nacimiento": "1993-09-03",
+      "created_at": "2025-09-25T17:24:00.414806",
+      "updated_at": "2025-09-25T17:24:00.414806"
+    },
+    {
+      "id": 12,
+      "nombre": "Andy Murray",
+      "pais": "Reino Unido",
+      "altura": 190,
+      "peso": 84,
+      "puntos": 8000,
+      "mano": "DERECHA",
+      "fecha_nacimiento": "1987-05-15",
+      "created_at": "2025-09-25T17:24:00.414806",
+      "updated_at": "2025-09-25T17:24:00.414806"
+    }
+  ]
+}

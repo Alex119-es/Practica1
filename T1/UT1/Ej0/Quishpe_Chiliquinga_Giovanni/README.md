@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-#Desarrollado por Giovanni_Alejandro_Quishpe_Chiliquinga
+**Desarrollado por**: Giovanni Alejandro Quishpe Chiliquinga
 
-=======
->>>>>>> 7a8df23d5f5ba3cfeeb6a5be589de2ffb159e3ce
 # 🎾 Torneo de Tenis - Aplicación de Gestión
 
 ## 📋 Descripción del Proyecto
@@ -199,14 +196,7 @@ torneo_tenis/
 ```
 
 ---
-<<<<<<< HEAD
-**Desarrollado por**: Giovanni Alejandro Quishpe Chiliquinga  
-**Curso**: DWES 2024-2025  
-**Java Version**: 17+  
-**Build Tool**: Maven 3.8+
-=======
 **Desarrollado por**: [Tu Nombre]  
 **Curso**: DWES 2024-2025  
 **Java Version**: 17+  
 **Build Tool**: Maven 3.8+
->>>>>>> 7a8df23d5f5ba3cfeeb6a5be589de2ffb159e3ce

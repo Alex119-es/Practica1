@@ -1,0 +1,60 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/Alexm/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar;C:/Users/Alexm/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar;C:/Users/Alexm/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar;C:/Users/Alexm/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Alexm/Desktop/IntentoPractica1/Labs_DWES_2526/T1/UT1/Ej0/torneo_tenis/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Alexm/Desktop/IntentoPractica1/Labs_DWES_2526/T1/UT1/Ej0/torneo_tenis/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'torneo_tenis 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'torneo_tenis 1.0-SNAPSHOT API'
+com.torneo_tenis.cache
+com.torneo_tenis.io
+com.torneo_tenis
+com.torneo_tenis.model
+com.torneo_tenis.repository
+com.torneo_tenis.validator
+C:\Users\Alexm\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar = 1758812426404
+C:\Users\Alexm\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar = 1758812426600
+C:\Users\Alexm\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar = 1758812426619
+C:\Users\Alexm\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar = 1758812426648
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\src\main\java = 1758801545605
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\allclasses-index.html = 1758813773308
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\allpackages-index.html = 1758813773318
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\copy.svg = 1758813773443
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\element-list = 1758813772974
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\help-doc.html = 1758813773425
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\index-all.html = 1758813773395
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\index.html = 1758813773266
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\link.svg = 1758813773450
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\member-search-index.js = 1758813773338
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\module-search-index.js = 1758813773323
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\overview-summary.html = 1758813773408
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\overview-tree.html = 1758813773258
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\package-search-index.js = 1758813773327
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\script.js = 1758813773438
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\search-page.js = 1758813773467
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\search.html = 1758813773402
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\search.js = 1758813773461
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\serialized-form.html = 1758813773102
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\stylesheet.css = 1758813773433
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\tag-search-index.js = 1758813773344
+C:\Users\Alexm\Desktop\IntentoPractica1\Labs_DWES_2526\T1\UT1\Ej0\torneo_tenis\target\reports\apidocs\type-search-index.js = 1758813773331
