@@ -1,0 +1,11 @@
+# Archivos y directorios que no necesitas en Git
+target/
+!target/torneo_tenis.jar
+*.class
+*.log
+.settings/
+.vscode/
+.idea/
+*.iml
+.DS_Store
+data/*.db
